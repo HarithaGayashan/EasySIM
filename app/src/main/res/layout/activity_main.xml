@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_light"
+    tools:context="com.example.harithagayashan.easysim.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/alert_light_frame"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/buttonrecharge"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignBaseline="@+id/editTextrechargeNumber"
+            android:layout_alignBottom="@+id/editTextrechargeNumber"
+            android:layout_margin="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_toEndOf="@+id/editTextrechargeNumber"
+            android:background="@android:color/black"
+            android:padding="10dp"
+            android:text="Recharge"
+            android:textColor="#FFFF"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="444dp" />
+
+        <EditText
+            android:id="@+id/editTextrechargeNumber"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageButtonAirtel"
+            android:layout_below="@+id/imageButtonAirtel"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="27dp"
+            android:ems="10"
+            android:hint="Enter card number"
+            android:inputType="number"
+            android:selectAllOnFocus="false"
+            android:singleLine="false" />
+
+        <ImageButton
+            android:id="@+id/imageButtonDialog"
+            style="@android:style/Widget.ImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="67dp"
+            android:background="@android:color/background_light"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/dialog" />
+
+        <ImageButton
+            android:id="@+id/imageButtonMobitel"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageButtonDialog"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="14dp"
+            android:background="@android:color/background_light"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/mobitel" />
+
+        <ImageButton
+            android:id="@+id/imageButtonAirtel"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageButtonMobitel"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/background_light"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/airtel" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="31dp"
+            android:text="Tap Your Service Provider"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "691167346726",
+    "firebase_url": "https://easysim-e7d53.firebaseio.com",
+    "project_id": "easysim-e7d53",
+    "storage_bucket": "easysim-e7d53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691167346726:android:5880326c99d95176",
+        "android_client_info": {
+          "package_name": "com.example.harithagayashan.easysim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691167346726-stfood5645tro18m2j5665jsg1m12jc9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harithagayashan.easysim",
+            "certificate_hash": "8a498df0fca85e5f099bf7c148ae58d2e4b74122"
+          }
+        },
+        {
+          "client_id": "691167346726-11d1pin6al54eudib29ul5hihu4pvuta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZaqHiunbBRsenZax87TMnzIQ3eRAIAYE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691167346726-11d1pin6al54eudib29ul5hihu4pvuta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
